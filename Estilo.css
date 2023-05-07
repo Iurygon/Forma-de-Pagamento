@@ -1,3 +1,78 @@
 body{
+  width: 1440px;
   background: url('images/bg-main-desktop.png') no-repeat;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.frente{
+  position: relative;
+  left: 150px;
+  top: 100px;
+  box-shadow: 5px 5px 20px;
+  border-radius: 10px;
+}
+
+.logo{
+  position: relative;
+  right: 272px;
+  bottom: 70px;
+}
+
+.tras{
+  position: relative;
+  right: 300px;
+  top: 375px;
+  box-shadow: 5px 5px 20px;
+  border-radius: 10px;
+}
+
+fieldset{
+  width: 350px;
+  position: relative;
+  left: 900px;
+  bottom: 40px;
+}
+
+input{
+  margin: 10px 0 20px;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #D3D3D3;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.nome, .numero{
+  width: 300px;
+  display: block;
+}
+
+.validade{
+  display: block;
+}
+
+.mes, .ano{
+  display: inline-block;
+  width: 40px;
+
+}
+
+.codigo{
+  position: relative;
+  bottom: 34px;
+  left: 35px;
+}
+
+.cvc{
+  width: 135px;
+  display: inline-block;
+}
+
+.confirmar{
+  width: 324px;
+  font: 20px bold;
+  color: #FFFFFF;
+  background-color: #3B0054;
 }
