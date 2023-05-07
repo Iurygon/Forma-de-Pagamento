@@ -28,6 +28,28 @@ body{
   border-radius: 10px;
 }
 
+.texto{
+  display: relative;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.textonome{
+  font-size: 20px;
+}
+
+.textonum{
+
+}
+
+.textovalidade{
+
+}
+
+.textocvc{
+
+}
+
 fieldset{
   width: 350px;
   position: relative;
